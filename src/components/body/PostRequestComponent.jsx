@@ -84,7 +84,7 @@ export const PostRequestComponent = () => {
             })}
             placeholder="Your name"
             className={classNames("bodyRequestConteiner__input", {
-              ["bodyRequestConteiner__inputError "]: errors.name,
+              "bodyRequestConteiner__inputError ": errors.name,
             })}
           />
           {errors.name?.message && (
@@ -113,7 +113,7 @@ export const PostRequestComponent = () => {
             })}
             placeholder="Email"
             className={classNames("bodyRequestConteiner__input", {
-              ["bodyRequestConteiner__inputError "]: errors.email,
+              "bodyRequestConteiner__inputError ": errors.email,
             })}
           />
           {errors.email?.message && (
@@ -132,11 +132,8 @@ export const PostRequestComponent = () => {
               },
             })}
             placeholder="Phone"
-            // onChange={(e) => {
-            //   setPhoneNumber(e.target.value);
-            // }}
             className={classNames("bodyRequestConteiner__input", {
-              ["bodyRequestConteiner__inputError "]: errors.phone,
+              bodyRequestConteiner__inputError: errors.phone,
             })}
           />
           {errors.phone?.message && (

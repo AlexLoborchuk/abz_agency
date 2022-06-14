@@ -9,7 +9,11 @@ export const HeaderComponent = () => {
       <div className="headerContainer__wrapper">
         <div className="headerContainer__headerMenu">
           <div className="headerContainer__logo">
-            <img src={Logo} alt="Logo" />
+            <img
+              src={Logo}
+              alt="Logo"
+              className="headerContainer__imgLogotype"
+            />
           </div>
           <div className="headerContainer__controlButtons">
             <Link

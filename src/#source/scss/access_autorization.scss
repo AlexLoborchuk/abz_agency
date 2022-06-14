@@ -1,8 +1,12 @@
 .bodyContainer__image {
   text-align: center;
-  margin: 50px 0 100px 0;
+  margin: 50px auto 100px auto;
+  width: 328px;
+  height: 290px;
 }
 .bodyContainer__footer {
   border-top: 1px solid #d0cfcf;
   padding: 17px 0;
+  width: 80%;
+  margin: 0 auto;
 }
