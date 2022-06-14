@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+//обнуляющі стилі
+@import "nullstyle.scss";
+
+// стилі для шапки сторінки
+@import "header_container.scss";
+//стилі для блоку з GET запитом
+@import "body_container_get_request.scss";
+//стилі для блоку з POST запитом
+@import "body_container_post_request.scss";
+
+@import "access_autorization.scss";
+
+body {
+  background-color: #e5e5e5;
+}
+.bodyContainer {
+  max-width: 1170px;
+  margin: 140px auto 0 auto;
+  font-family: "Nunito";
+}
+
+@media (max-width: 1170px) {
+  .buttonText:last-child {
+    margin-right: 60px;
+  }
+  .headerContainer__headerMenu {
+    padding: 0;
+  }
+  .headerContainer__logo {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 960px) {
+  .header__title {
+    padding-top: 89px;
+  }
+}

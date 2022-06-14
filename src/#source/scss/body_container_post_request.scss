@@ -1,0 +1,66 @@
+.bodyRequestConteiner__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  margin: 10px;
+}
+.bodyRequestConteiner__input {
+  width: 380px;
+  border: 1px solid #d0cfcf;
+  border-radius: 4px;
+  margin-top: 50px;
+  padding: 10px 0 10px 16px;
+}
+.inputPhoto {
+  display: inline-block;
+  width: 300px;
+  border: 1px solid #d0cfcf;
+  border-radius: 4px;
+  margin-top: 50px;
+  padding: 15px 10px 15px 10px;
+}
+.bodyRequestConteiner__inputFile {
+  display: none;
+}
+.bodyRequestConteiner__inputError {
+  border: 1px solid #cb3d40;
+}
+.bodyRequestConteiner__textUpload {
+  border: 1px solid rgba(0, 0, 0, 0.87);
+  border-radius: 4px 0px 0px 4px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+.bodyRequestConteiner__userPhoto {
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+}
+.bodyRequestConteiner_phone {
+  margin-top: 5px;
+  font-size: 0.85rem;
+  color: #7e7e7e;
+  margin-right: 250px;
+}
+.bodyRequestConteiner__radioBlock {
+  margin-top: 25px;
+  margin-bottom: 4px;
+  margin-right: 220px;
+}
+.bodyRequestConteiner__radio {
+  margin: 7px 11px 0 0;
+}
+.bodyRequestConteiner__radioText {
+  font-size: 1.142rem;
+  line-height: 1.857rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+.bodyRequestConteiner__errorText {
+  color: #cb3d40;
+  font-size: 0.85rem;
+}
+.error {
+  margin: 5px 0 0 10px;
+}

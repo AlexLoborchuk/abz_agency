@@ -1,0 +1,75 @@
+// @import "../../assets/header/pexels-alexandr-podvalny-1227513.jpeg"
+.headerContainer {
+  max-width: 1170px;
+  margin: auto;
+}
+.headerContainer__wrapper {
+  background-color: #fff;
+}
+.headerContainer__headerMenu {
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.headerContainer__logo {
+  margin: 17px 0 17px 0px;
+}
+.headerContainer__controlButtons {
+  margin-left: auto;
+}
+.headerContainer__buttonText {
+  display: inline-block;
+  text-align: center;
+  padding: 7px 0;
+  background: #f4e041;
+  border-radius: 80px;
+  color: black;
+  width: 100px;
+  &:hover {
+    background-color: #ffe302;
+  }
+}
+
+.headerContainer__buttonText_disabled {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 0;
+  background: #b4b4b4;
+  border-radius: 80px;
+  color: rgba(255, 255, 255, 0.87);
+  width: 100px;
+  &:hover {
+    background-color: #b4b4b4;
+  }
+}
+.buttonText {
+  margin: 17px 0px 17px 10px;
+}
+.header {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./../assets/header/pexels-alexandr-podvalny-1227513.jpeg")
+      // 0 0/100% auto no-repeat;
+    0 0/100% 100% no-repeat;
+}
+.header__title {
+  width: 380px;
+  padding-top: 164px;
+  margin: 0 auto;
+  font-size: 2.85rem;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+.header__subtitle {
+  width: 380px;
+  font-size: 1.142rem;
+  line-height: 1.85rem;
+  text-align: center;
+  padding-top: 21px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.buttonSign {
+  margin: 36px 0 0 45%;
+  padding-bottom: 144px;
+}
